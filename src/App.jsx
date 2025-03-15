@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { useCallback,useEffect,useRef } from 'react';
 
+// WE HAVE USED useCallback, useEffect, useRef
 function App() {
   const [length,setLength]=useState(8);
   const [numberAllowed,setnumberAllowed]=useState(false);
